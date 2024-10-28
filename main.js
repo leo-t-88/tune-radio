@@ -205,20 +205,13 @@ function urlcopy(){
 // Pages
 function homepage(){
   document.querySelector(".settings").style.display = 'none';
-  document.querySelector(".addpage").style.display = 'none';
   document.querySelector(".homec").classList.add("select");
   document.getElementById("bar").style.display = 'block';
   document.getElementById("close").style.display = 'none';
   document.querySelector(".rightmenu").classList.remove("show");
 }
-function addpage(){
-  document.querySelector(".settings").style.display = 'none';
-  document.querySelector(".addpage").style.display = 'block';
-  document.querySelector(".homec").classList.remove("select");
-}
 function settings(){
   document.querySelector(".settings").style.display = 'block';
-  document.querySelector(".addpage").style.display = 'none';
   document.querySelector(".homec").classList.remove("select");
 }
 
