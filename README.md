@@ -5,4 +5,6 @@ Vos Radio, Webradio et Musiques gratuitement
 
 ``Début projet le 6 Novembre 2022 - Archivé le 4 Novembre 2024``
 
+``Player Audio Original :`` https://github.com/jewel998/playlist
+
 Ce projet à été réupload dans le but de devenir une démonstration, il ne sera plus mis (ou très peut) à jour, de plus il ne possède maintentant seulement 35 radios
