@@ -1,0 +1,11 @@
+{
+    "songs": [
+        {
+            "albumart": "https://leo-t-88.github.io/tune-radio/assets/radio/franceculture.png",
+            "author": "L'esprit d'ouverture",
+            "song": "France Culture",
+            "json": "",
+            "audio": "https://icecast.radiofrance.fr/franceculture-hifi.aac"
+        }
+    ]
+}

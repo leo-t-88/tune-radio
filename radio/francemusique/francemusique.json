@@ -1,0 +1,11 @@
+{
+    "songs": [
+        {
+            "albumart": "https://leo-t-88.github.io/tune-radio/assets/radio/francemusique.png",
+            "author": "Vous allez LA DO RÉ !",
+            "song": "France Musique",
+            "json": "",
+            "audio": "https://icecast.radiofrance.fr/francemusique-midfi.mp3"
+        }
+    ]
+}
