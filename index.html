@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover"><meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta data-hid="mobile-web-app-capable" name="mobile-web-app-capable" content="yes"><meta data-hid="apple-mobile-web-app-title" name="apple-mobile-web-app-title" content="Tune Radio"><meta name="theme-color" content="#dbf6ff"/>
+    <title>Tune Radio - Vos Radio, Webradio et Musiques gratuitement</title>
+    <meta name="description" content="Écouter vos radios préférées et les titres du moment où vous voulez et quand vous voulez sans aucune publicité"/>
+    <meta name="keywords" content="radio, musiques, music, en ligne, tune, radio, musique, radios, webradio, streaming">
+    <meta name="title" content="Tune Radio">
+    <meta property="og:title" content="Tune Radio">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://leo-t-88.github.io/tune-radio/">
+    <meta property="og:description" content="Écouter vos radios préférées et les titres du moment où vous voulez et quand vous voulez sans aucune publicité">
+
+    <script src="https://leo-t-88.github.io/icon.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="manifest" href="./app.webmanifest">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./mobile.css">
+    <link rel="icon" type="image/png" href="./favicon.png"/>
+
+    <header>
+        <menu id="stmartmenu">
+            <a href="./"><img src="./favicon.png"><h2>Tune Radio</h2></a>
+            <input type="checkbox" id="mbl" role="button">
+              <ul>
+                  <li class="mobiledis"><a> </a></li>
+                  <li><a> </a></li>
+                  <li><a href="./#radio"><i class="far fa-broadcast-tower"></i><p>Radios</p></a></li>
+                  <li><a href="./#music"><i class="far fa-music"></i><p>Musiques</p></a></li>
+                  <li><a class="select homec" onclick="homepage();"><i class="fa fa-home"></i><p>Accueil</p></a></li>
+                </li>
+              </ul>
+                <label for="mbl">
+                  <i class="fas fa-bars" id="bar" onclick="menu()"></i>
+                  <i class="fas fa-times" id="close" onclick="menu2()"></i>
+                </label>
+        </menu>
+        <div class="rightmenu">
+          <center class="appd">
+            <img src="./favicon.png">
+            <h3>Appli Tune Radio</h3>
+            <a href="#" class="install-link">Soon... <i class="far fa-arrow-alt-to-bottom"></i></a>
+            <a href="./application"><p>En savoir plus ?</p></a>
+          </center>
+          <li><a href="#" target="_blank"><i class="fas fa-info-circle"></i>Aide</a></li>
+          <li onclick="settings();"><i class="fas fa-cog"></i>Paramètres</li>
+        </div>
+        </header>
+</head>
+<body>
+<noscript><strong>Javascript est désactivé !</strong> Certains projets et fonctionnalités necessitent Javascript pour fonctionner. Veuillez l'activer dans les paramètres de votre naviguateur.</noscript>
+<div class="settings">
+  <center><h1><i class="fas fa-cog"></i> Paramètres</h1></center>
+  <h2>⬥ Personnalisation :</h2>
+  <iframe src="https://leo-t-88.github.io/tools/color-picker/?source=tunemusic" class="colorpicker"></iframe>
+  <h3>- Thème :</h3>
+  <div class="wrapper">
+    <input type="checkbox" id="themecheck">
+    <label for="themecheck" class="toggle">
+      <span class="toggle-button">
+        <span class="crater crater-1"></span>
+        <span class="crater crater-2"></span>
+        <span class="crater crater-3"></span>   
+        <span class="crater crater-4"></span>
+        <span class="crater crater-5"></span>
+        <span class="crater crater-6"></span>
+        <span class="crater crater-7"></span>
+      </span>
+      <span class="star star-1"></span>
+      <span class="star star-2"></span>
+      <span class="star star-3"></span>
+      <span class="star star-4"></span>
+      <span class="star star-5"></span>
+      <span class="star star-6"></span>
+      <span class="star star-7"></span>
+    </label>
+  </div>
+  <h3>- Couleur d'accentuation (Soon) :</h3>
+  <h2>⬥ Données (Soon) :</h2>
+</div>
+
+<iframe name="player" class="player"></iframe>
+<div>
+  <div onclick="fullplayer()" style="cursor: pointer;" accesskey="l"><i class="fas fa-expand fullscreen"></i></div>
+  <div onclick="minplayer()" style="cursor: pointer;" accesskey="m"><i class="fas fa-compress midscreen"></i></div>
+  <div onclick="document.querySelector('.sharepopup').style.display = 'block';" style="cursor: pointer;" accesskey="s"><i class="far fa-share-alt"></i></div>
+</div>
+<div class="sharepopup">
+  <h1>Partager</h1>
+  <i class="fas fa-times" onclick="document.querySelector('.sharepopup').style.display = 'none';" title="Fermer"></i>
+  <div class="lf">
+    <i class="far fa-link" onclick="document.querySelector('.sharepopup').style.height = '150px'; document.getElementById('framesharing').style.display = 'none'; document.getElementById('urlsharing').style.display = 'block';" title="Partager le lien"></i>
+    <i class="far fa-code" onclick="document.querySelector('.sharepopup').style.height = '250px'; document.getElementById('framesharing').style.display = 'block'; document.getElementById('urlsharing').style.display = 'none';" title="Intègrer le player"></i>
+  </div>
+  <div id="framesharing">
+    <input type="text" disabled value="" id="frameshare">
+    <iframe height="90px;" width="420px" style="border-radius: 10px; border: none;" id="frameprev"></iframe>
+    <div class="darkc" onclick="document.getElementById('frameprev').style.backgroundColor = '#000000'" title="Preview thème sombre"></div>
+    <div class="lightc" onclick="document.getElementById('frameprev').style.backgroundColor = '#ffffff'" title="Preview thème clair"></div>
+  </div>
+  <div id="urlsharing">
+    <input type="text" disabled value="" id="urlshare">
+  </div>
+</div>
+
+<div class="bgcolor"></div>
+<section id="music">
+  <h1>Découvrez des musiques</h1>
+  <div class="musicgrid">
+    <div class="musicbox"><img src="./assets/playlist/pop.png"><a onclick="playlist('pop')"><img src="./playbtn.png"></a></div>
+    <div class="musicbox"><img src="./assets/playlist/rap.png"><a onclick="playlist('hiphop')"><img src="./playbtn.png"></a></div>
+    <div class="musicbox"><img src="./assets/playlist/rock.png"><a onclick="playlist('rock')"><img src="./playbtn.png"></a></div>
+    <div class="musicbox"><img src="./assets/playlist/electro.png"><a onclick="playlist('electro')"><img src="./playbtn.png"></a></div>
+    <div class="musicbox"><img src="./assets/playlist/kpop.png"><a onclick="playlist('kpop')"><img src="./playbtn.png"></a></div>
+    <div class="musicbox"><img src="./assets/playlist/country.png"><a onclick="playlist('country')"><img src="./playbtn.png"></a></div>
+  </div>
+</section>
+<section id="radio">
+  <h1>Radios</h1>
+  <div class="filtermenu">
+    <input type="text" id="searchInput" placeholder="Rechercher une radio">
+    <select id="filterloca">
+      <option value="all">Toutes les radios</option>
+      <option value="fr">Soon...</option>
+    </select>
+    <div class="filtertype">
+      <input type="checkbox" id="pop" class="filter-checkbox">
+      <label for="pop" class="filter-tag" onclick="radiofilter()">
+        <span class="filter-tag-name">Pop</span>
+        <span class="filter-tag-icon"></span>
+      </label>
+      <input type="checkbox" id="rock" class="filter-checkbox">
+      <label for="rock" class="filter-tag" onclick="radiofilter()">
+        <span class="filter-tag-name">Rock</span>
+        <span class="filter-tag-icon"></span>
+      </label>
+      <input type="checkbox" id="electro" class="filter-checkbox">
+      <label for="electro" class="filter-tag" onclick="radiofilter()">
+        <span class="filter-tag-name">Electro</span>
+        <span class="filter-tag-icon"></span>
+      </label>
+      <input type="checkbox" id="hiphop" class="filter-checkbox">
+      <label for="hiphop" class="filter-tag" onclick="radiofilter()">
+        <span class="filter-tag-name">Hiphop</span>
+        <span class="filter-tag-icon"></span>
+      </label>
+      <input type="checkbox" id="country" class="filter-checkbox">
+      <label for="country" class="filter-tag" onclick="radiofilter()">
+        <span class="filter-tag-name">Country</span>
+        <span class="filter-tag-icon"></span>
+      </label>
+      <input type="checkbox" id="latino" class="filter-checkbox">
+      <label for="latino" class="filter-tag" onclick="radiofilter()">
+        <span class="filter-tag-name">Latino</span>
+        <span class="filter-tag-icon"></span>
+      </label>
+      <input type="checkbox" id="classique" class="filter-checkbox">
+      <label for="classique" class="filter-tag" onclick="radiofilter()">
+        <span class="filter-tag-name">Classique</span>
+        <span class="filter-tag-icon"></span>
+      </label>
+      <input type="checkbox" id="jazz" class="filter-checkbox">
+      <label for="jazz" class="filter-tag" onclick="radiofilter()">
+        <span class="filter-tag-name">Jazz</span>
+        <span class="filter-tag-icon"></span>
+      </label>
+    </div>
+  </div>
+  <div class="fr">
+    <div class="radiogrid">
+      <div class="p rb alouette"><img src="./assets/radio/alouette.png" loading="lazy"><a onclick="playradio('alouette');"><img src="./playbtn.png"></a><h2>Alouette</h2></div>
+      <div class="p rb altafrequenza"><img src="./assets/radio/altafrequenza.png" loading="lazy"><a onclick="playradio('altafrequenza');"><img src="./playbtn.png"></a><h2>Alta Frequenza</h2></div>
+      <div class="rb bfmbusiness"><img src="./assets/radio/bfmbusiness.png" loading="lazy"><a onclick="playradio('bfmbusiness');"><img src="./playbtn.png"></a><h2>BFM Business</h2></div>
+      <div class="p r rb chériefm"><img src="./assets/radio/cheriefm.png" loading="lazy"><a onclick="playradio('cheriefm');"><img src="./playbtn.png"></a><h2>Chérie FM</h2></div>
+      <div class="p h e rb cuberadio"><img src="./assets/radio/cuberadio.png" loading="lazy"><a onclick="playradio('cuberadio');"><img src="./playbtn.png"></a><h2>Cuberadio</h2></div>
+      <div class="rb europe1"><img src="./assets/radio/europe1.png" loading="lazy"><a onclick="playradio('europe1');"><img src="./playbtn.png"></a><h2>Europe 1</h2></div>
+      <div class="p r e rb europe2 virginradio"><img src="./assets/radio/europe2.png" loading="lazy"><a onclick="playradio('europe2');"><img src="./playbtn.png"></a><h2>Europe 2</h2></div>
+      <div class="p r rb fip"><img src="./assets/radio/fip.png" loading="lazy"><a onclick="playradio('fip');"><img src="./playbtn.png"></a><h2>Fip</h2></div>
+      <div class="p rb francebleu"><img src="./assets/radio/francebleu.png" loading="lazy"><a onclick="playradio('francebleu');"><img src="./playbtn.png"></a><h2>France Bleu</h2></div>
+      <div class="rb franceculture"><img src="./assets/radio/franceculture.png" loading="lazy"><a onclick="playradio('franceculture');"><img src="./playbtn.png"></a><h2>France Culture</h2></div>
+      <div class="rb franceinter"><img src="./assets/radio/franceinter.png" loading="lazy"><a onclick="playradio('franceinter');"><img src="./playbtn.png"></a><h2>France Inter</h2></div>
+      <div class="c j rb francemusique"><img src="./assets/radio/francemusique.png" loading="lazy"><a onclick="playradio('francemusique');"><img src="./playbtn.png"></a><h2>France Musique</h2></div>
+      <div class="p e rb funradio"><img src="./assets/radio/funradio.png" loading="lazy"><a onclick="playradio('funradio');"><img src="./playbtn.png"></a><h2>Fun Radio</h2></div>
+      <div class="p r rb hitwest"><img src="./assets/radio/hitwest.png" loading="lazy"><a onclick="playradio('hitwest');"><img src="./playbtn.png"></a><h2>Hit West</h2></div>
+      <div class="p rb kissfm"><img src="./assets/radio/kissfm.png" loading="lazy"><a onclick="playradio('kissfm');"><img src="./playbtn.png"></a><h2>Kiss FM</h2></div>
+      <div class="p rb laradioplus"><img src="./assets/radio/laradioplus.png" loading="lazy"><a onclick="playradio('laradioplus');"><img src="./playbtn.png"></a><h2>La Radio Plus</h2></div>
+      <div class="p r rb magnumlaradio"><img src="./assets/radio/magnumlaradio.png" loading="lazy"><a onclick="playradio('magnumlaradio');"><img src="./playbtn.png"></a><h2>Magnum la radio</h2></div>
+      <div class="p rb mistralfm"><img src="./assets/radio/mistralfm.png" loading="lazy"><a onclick="playradio('mistralfm');"><img src="./playbtn.png"></a><h2>Mistral FM</h2></div>
+      <div class="h rb mouv"><img src="./assets/radio/mouv.png" loading="lazy"><a onclick="playradio('mouv');"><img src="./playbtn.png"></a><h2>Mouv'</h2></div>
+      <div class="p rb mradio"><img src="./assets/radio/mradio.png" loading="lazy"><a onclick="playradio('mradio');"><img src="./playbtn.png"></a><h2>M Radio</h2></div>
+      <div class="p h e rb ngradio"><img src="./assets/radio/ngradio.png" loading="lazy"><a onclick="playradio('ngradio');"><img src="./playbtn.png"></a><h2>NG Radio</h2></div>
+      <div class="p r rb nostalgie"><img src="./assets/radio/nostalgie.png" loading="lazy"><a onclick="playradio('nostalgie');"><img src="./playbtn.png"></a><h2>Nostalgie</h2></div>
+      <div class="h p r e l rb nrj"><img src="./assets/radio/nrj.png" loading="lazy"><a onclick="playradio('nrj');"><img src="./playbtn.png"></a><h2>NRJ</h2></div>
+      <div class="c rb radioclassique"><img src="./assets/radio/radioclassique.png" loading="lazy"><a onclick="playradio('radioclassique');"><img src="./playbtn.png"></a><h2>Radio Classique</h2></div>
+      <div class="j rb radiocrooner"><img src="./assets/radio/radiocrooner.png" loading="lazy"><a onclick="playradio('radiocrooner');"><img src="./playbtn.png"></a><h2>Radio Crooner</h2></div>
+      <div class="p rb radioespace"><img src="./assets/radio/radioespace.png" loading="lazy"><a onclick="playradio('radioespace');"><img src="./playbtn.png"></a><h2>Radio Espace</h2></div>
+      <div class="e rb radiofg"><img src="./assets/radio/radiofg.png" loading="lazy"><a onclick="playradio('radiofg');"><img src="./playbtn.png"></a><h2>Radio FG</h2></div>
+      <div class="p r rb rfm"><img src="./assets/radio/rfm.png" loading="lazy"><a onclick="playradio('rfm');"><img src="./playbtn.png"></a><h2>RFM</h2></div>
+      <div class="p r rb rire&chansons"><img src="./assets/radio/rirechansons.png" loading="lazy"><a onclick="playradio('rirechansons');"><img src="./playbtn.png"></a><h2>Rire & chansons</h2></div>
+      <div class="rb rmc"><img src="./assets/radio/rmc.png" loading="lazy"><a onclick="playradio('rmc');"><img src="./playbtn.png"></a><h2>RMC</h2></div>
+      <div class="p r l rb rtl"><img src="./assets/radio/rtl.png" loading="lazy"><a onclick="playradio('rtl');"><img src="./playbtn.png"></a><h2>RTL</h2></div>
+      <div class="p r a rb rtl2"><img src="./assets/radio/rtl2.png" loading="lazy"><a onclick="playradio('rtl2');"><img src="./playbtn.png"></a><h2>RTL2</h2></div>
+      <div class="h rb skyrock"><img src="./assets/radio/skyrock.png" loading="lazy"><a onclick="playradio('skyrock');"><img src="./playbtn.png"></a><h2>Skyrock</h2></div>
+      <div class="p rb topmusic"><img src="./assets/radio/topmusic.png" loading="lazy"><a onclick="playradio('topmusic');"><img src="./playbtn.png"></a><h2>Top Music</h2></div>
+      <div class="p r rb vosgesfm"><img src="./assets/radio/vosgesfm.png" loading="lazy"><a onclick="playradio('vosgesfm');"><img src="./playbtn.png"></a><h2>Vosges FM</h2></div>
+    </div>
+  </div>
+</section>
+<div class="bottomcolor"></div>
+<script src="./main.js"></script>
+<script src="./settings.js"></script>
+</body>
+</html>
