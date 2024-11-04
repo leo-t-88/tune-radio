@@ -1,0 +1,74 @@
+{
+    "songs": [
+        {
+            "albumart": "https://lh3.googleusercontent.com/UoTulZ2b5R5v1R440xZjo177M6a5uJ289j9IFywB7xAdMCr_gGj3tSIsdshPnEhtC6HO8TJ0ta7CNMrl=w544-h544-l90-rj",
+            "author": "Angèle",
+            "song": "Balance ton quoi",
+            "json": "https://leo-t-88.github.io/tune-radio/lyric/pop/Ang%C3%A8le%20-%20Balance%20ton%20quoi.json",
+            "audio": "https://leo-t-88.github.io/tune-radio/audio/pop/Ang%C3%A8le%20-%20Balance%20ton%20quoi.ogg"
+        },
+        {
+            "albumart": "https://lh3.googleusercontent.com/Eh9R0xPmKyEJNaJdxuyofgq7rJmUarflw_Lx_H25GVREVwZTrlU5xk12u9Zl2bgHkyCRn3r0UlDd-1w=w544-h544-l90-rj",
+            "author": "Slimane",
+            "song": "Viens on s'aime",
+            "json": "https://leo-t-88.github.io/tune-radio/lyric/pop/Slimane%20-%20Viens%20on%20s%E2%80%99aime.json",
+            "audio": "https://leo-t-88.github.io/tune-radio/audio/pop/Slimane%20-%20Viens%20on%20s%E2%80%99aime.ogg"
+        },
+        {
+            "albumart": "https://lh3.googleusercontent.com/msdUmkHbCmyvCXFMJqOZB7lfCRk5zQqDE0t00wVzSSB8P5xmXUIyGwqlf4YrYGX9JHBX7_k_lSb1cdE=w544-h544-l90-rj",
+            "author": "Pierre Garnier",
+            "song": "Nous on sait",
+            "json": "https://leo-t-88.github.io/tune-radio/lyric/pop/Pierre%20Garnier%20-%20Nous%20on%20sait.json",
+            "audio": "https://leo-t-88.github.io/tune-radio/audio/pop/Pierre%20Garnier%20-%20Nous%20on%20sait.ogg"
+        },
+        {
+            "albumart": "https://lh3.googleusercontent.com/B5IKMQQOto1EEdNEjOj81Ytcj2fR4ux2mZL7LJdqvOwVsxgXWrYWHZE-fggJv3-oKs4iGlhdiOipPyCe=w544-h544-l90-rj",
+            "author": "Soprano ft Vincezo",
+            "song": "Le coach",
+            "json": "https://leo-t-88.github.io/tune-radio/lyric/pop/Soprano%20ft%20Vincenzo%20-%20Le%20coach.json",
+            "audio": "https://leo-t-88.github.io/tune-radio/audio/pop/Soprano%20ft%20Vincenzo%20-%20Le%20coach.ogg"
+        },
+        {
+            "albumart": "https://lh3.googleusercontent.com/te8xskFX0HJIvGLahiYmjh5JvzLtGwScFeQd93RyQs0ar7XCDODMSkeeINu74qdAbG9mlI7L7FT_svw=w544-h544-l90-rj",
+            "author": "Stromae",
+            "song": "Papoutai",
+            "json": "https://leo-t-88.github.io/tune-radio/lyric/pop/Stromae%20-%20Papaoutai.json",
+            "audio": "https://leo-t-88.github.io/tune-radio/audio/pop/Stromae%20-%20Papaoutai.ogg"
+        },
+        {
+            "albumart": "https://lh3.googleusercontent.com/fhDgRO0LrPPo9CDqsLQlxR3CVZc8xPmSi9Ja8DKAS5zhoWsZKdj2scyWqBUU2t4DHxK1xcbWKY2Q7cpj=w544-h544-l90-rj",
+            "author": "Sabrina Carpenter",
+            "song": "Espresso",
+            "json": "https://leo-t-88.github.io/tune-radio/lyric/pop/Sabrina%20Carpenter%20-%20Espresso.json",
+            "audio": "https://leo-t-88.github.io/tune-radio/audio/pop/Sabrina%20Carpenter%20-%20Espresso.ogg"
+        },
+        {
+            "albumart": "https://lh3.googleusercontent.com/rA2y27t2cz19Uh5OdoBEIgSTOoziWTYQ3xkret_OhNM_ji2lJ-KmG232s11Ngtw4TqZOk_pAte2mCNLF=w544-h544-l90-rj",
+            "author": "Sia ft Sean Paul",
+            "song": "Cheap Thrills",
+            "json": "https://leo-t-88.github.io/tune-radio/lyric/pop/Sia%20ft%20Sean%20Paul%20-%20Cheap%20Thrills.json",
+            "audio": "https://leo-t-88.github.io/tune-radio/audio/pop/Sia%20ft%20Sean%20Paul%20-%20Cheap%20Thrills.ogg"
+        },
+        {
+            "albumart": "https://lh3.googleusercontent.com/k7H2OdodpH3w3mF5zv5qjA6Ge07snVSnxce3GqA85asp6wK2LI165p7mT4dwsYHJ0UyV97hcLGjvaOLRSw=w544-h544-l90-rj",
+            "author": "Dua Lipa ft Calvin Harris",
+            "song": "One Kiss",
+            "json": "https://leo-t-88.github.io/tune-radio/lyric/pop/Dua%20Lipa%20ft%20Calvin%20Harris%20-%20One%20Kiss.json",
+            "audio": "https://leo-t-88.github.io/tune-radio/audio/pop/Dua%20Lipa%20ft%20Calvin%20Harris%20-%20One%20Kiss.ogg"
+        },
+        {
+            "albumart": "https://lh3.googleusercontent.com/TZPXNC7DfGfzqxGbLzH5VLXLOl_64ohJx6z7ADY0jBWrTE89Jgm35Gn_7RyA5mVHeRQydxJ-UKAV9S47=w544-h544-l90-rj",
+            "author": "Sam Smith",
+            "song": "Diamonds",
+            "json": "https://leo-t-88.github.io/tune-radio/lyric/pop/Sam%20Smith%20-%20Diamonds.json",
+            "audio": "https://leo-t-88.github.io/tune-radio/audio/pop/Sam%20Smith%20-%20Diamonds.ogg"
+        },
+        {
+            "albumart": "https://lh3.googleusercontent.com/TMbA3LImAL96nFkm5cI1x6LiEMvMbRg4IRxEeABd9qpXsfmwKhZHRD1MucnjG5QIsVEp0Vpn7h7M51FH3Q=w544-h544-l90-rj",
+            "author": "Ed Sheeran",
+            "song": "Shape of You",
+            "json": "https://leo-t-88.github.io/tune-radio/lyric/pop/Ed%20Sheeran%20-%20Shape%20of%20You.json",
+            "audio": "https://leo-t-88.github.io/tune-radio/audio/pop/Ed%20Sheeran%20-%20Shape%20of%20You.ogg"
+        }
+    ]
+}

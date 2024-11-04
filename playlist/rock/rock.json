@@ -1,0 +1,74 @@
+{
+    "songs": [
+        {
+            "albumart": "https://lh3.googleusercontent.com/s-f1uqCANzxJR2R6Ogwfm7ZaFhFdelp07J8gFvd117MpGMCZ-mVTHnTc3YqE6w4zYrCDneuLPmC_zcw=w544-h544-l90-rj",
+            "author": "Jamaica",
+            "song": "Cross the Fader",
+            "json": "https://leo-t-88.github.io/tune-radio/lyric/rock/Jamaica%20-%20Cross%20the%20Fader.json",
+            "audio": "https://leo-t-88.github.io/tune-radio/audio/rock/Jamaica%20-%20Cross%20the%20Fader.ogg"
+        },
+        {
+            "albumart": "https://lh3.googleusercontent.com/MyxNaibWDGsxNYGst7bgaQFOeMJyE_QGvnIZ-6JZT_k94_AIEM-bDEQvkAoA-DPwWPsUdwVUu3X2-0Gp=w544-h544-s-l90-rj",
+            "author": "Johnny Hallyday",
+            "song": "Allumer le feu",
+            "json": "https://leo-t-88.github.io/tune-radio/lyric/rock/Johnny%20Hallyday%20-%20Allumer%20le%20feu.json",
+            "audio": "https://leo-t-88.github.io/tune-radio/audio/rock/Johnny%20Hallyday%20-%20Allumer%20le%20feu.ogg"
+        },
+        {
+            "albumart": "https://lh3.googleusercontent.com/75evsI-Mqt8HSD_W1eeXKixhg9Mu_J8OlpBOJ4s86zLZ22c_h7CPbySA95RPJTh6YnqZzTDPN5gFNsY=w544-h544-l90-rj",
+            "author": "The Clash",
+            "song": "Should I Stay or Should I Go (Remastered)",
+            "json": "https://leo-t-88.github.io/tune-radio/lyric/rock/The%20Clash%20-%20Should%20I%20Stay%20or%20Should%20I%20Go%20(Remastered).json",
+            "audio": "https://leo-t-88.github.io/tune-radio/audio/rock/The%20Clash%20-%20Should%20I%20Stay%20or%20Should%20I%20Go%20(Remastered).ogg"
+        },
+        {
+            "albumart": "https://lh3.googleusercontent.com/eyKiPBSqEu556sYTd_IyZhfxun5e_hatZ9tAyu8bnmVRgtbM3aW-SXUvhVX-d7s1oU0Yf3a38JOuYMZK5w=w544-h544-l90-rj",
+            "author": "Nirvana",
+            "song": "Smells Like Teen Spirit",
+            "json": "https://leo-t-88.github.io/tune-radio/lyric/rock/Nirvana%20-%20Smells%20Like%20Teen%20Spirit.json",
+            "audio": "https://leo-t-88.github.io/tune-radio/audio/rock/Nirvana%20-%20Smells%20Like%20Teen%20Spirit.ogg"
+        },
+        {
+            "albumart": "https://lh3.googleusercontent.com/xvcZZr4HmXyoFTZR_70HAlcZSlIo9w0hLzqqvhpnQWk3hoihzsUJc1bcB-j3OLtXccfU5eBNgfQzsxfL=w544-h544-l90-rj",
+            "author": "Téléphone",
+            "song": "ça (C'est vraiment toi) (Remasterisé)",
+            "json": "https://leo-t-88.github.io/tune-radio/lyric/rock/T%C3%A9l%C3%A9phone%20-%20%C3%87a%20(cest%20vraiment%20toi)%20(Remasteris%C3%A9).json",
+            "audio": "https://leo-t-88.github.io/tune-radio/audio/rock/T%C3%A9l%C3%A9phone%20-%20%C3%87a%20(cest%20vraiment%20toi)%20(Remasteris%C3%A9).ogg"
+        },
+        {
+            "albumart": "https://lh3.googleusercontent.com/FlYP0nmUw5OfcUK4aP5MPetNdb_kiKp5nWrFn6_FwLG6Pm-asiQArUmS0QJ8m2dSjuqVLzIr2s16MwGORQ=w544-h544-l90-rj",
+            "author": "Maneskin",
+            "song": "Baby Said",
+            "json": "https://leo-t-88.github.io/tune-radio/lyric/rock/Maneskin%20-%20Baby%20Said.json",
+            "audio": "https://leo-t-88.github.io/tune-radio/audio/rock/Maneskin%20-%20Baby%20Said.ogg"
+        },
+        {
+            "albumart": "https://lh3.googleusercontent.com/weYQWfEwWNPOuAm34geXN1LkSYPlsJay78NnQgHC3PKsyZcdvBHIsMtqoFh3rioA4XgMdHMQd3h6vH6mbA=w544-h544-l90-rj",
+            "author": "Imagine Dragons",
+            "song": "Believer",
+            "json": "https://leo-t-88.github.io/tune-radio/lyric/rock/Imagine%20Dragons%20-%20Believer.json",
+            "audio": "https://leo-t-88.github.io/tune-radio/audio/rock/Imagine%20Dragons%20-%20Believer.ogg"
+        },
+        {
+            "albumart": "https://lh3.googleusercontent.com/q5PWa2JVJApX31A7QU2vE4RY8i5S_ofYbfpxgDjhz5fagMAxv8ROkEpUr2OAYgYrhzYqJpv0bV94DRCb=w544-h544-l90-rj",
+            "author": "Imagine Dragons",
+            "song": "Radioactive",
+            "json": "https://leo-t-88.github.io/tune-radio/lyric/rock/Imagine%20Dragons%20-%20Radioactive.json",
+            "audio": "https://leo-t-88.github.io/tune-radio/audio/rock/Imagine%20Dragons%20-%20Radioactive.ogg"
+        },
+        {
+            "albumart": "https://lh3.googleusercontent.com/KUdgKzx-QYzkkMuwQizAtp3zeh5DgrLnAOWnuNSaOqZVcStU6W-4JxUHcKbjHGiZubgHzWCknHBbbWc=w544-h544-l90-rj",
+            "author": "Linkin Park",
+            "song": "Lost",
+            "json": "https://leo-t-88.github.io/tune-radio/lyric/rock/Linkin%20Park%20-%20Lost.json",
+            "audio": "https://leo-t-88.github.io/tune-radio/audio/rock/Linkin%20Park%20-%20Lost.ogg"
+        },
+        {
+            "albumart": "https://lh3.googleusercontent.com/_CStcQs_T5Fd2pBm88cOLsnaoUXeESyk6r5NXZs8868g14pcikDXHVahYNoQM_B6OtH1KP0xob3TUaxmEw=w544-h544-l90-rj",
+            "author": "Elvis Presley",
+            "song": "Burning Love",
+            "json": "https://leo-t-88.github.io/tune-radio/lyric/rock/Elvis%20Presley%20-%20Burning%20Love.json",
+            "audio": "https://leo-t-88.github.io/tune-radio/audio/rock/Elvis%20Presley%20-%20Burning%20Love.ogg"
+        }
+    ]
+}

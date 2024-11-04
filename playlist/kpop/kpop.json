@@ -1,0 +1,39 @@
+{
+    "songs": [
+        {
+            "albumart": "https://lh3.googleusercontent.com/n1-pqG9jYCHqxiSSq7DORgk10PCS7vyMX5VX0o0HoPwEEIZM5pamJAFIDOHqo7Hl27hJ9YvqTahya3Fg=w544-h544-l90-rj",
+            "author": "BTS",
+            "song": "Dynamite",
+            "json": "https://leo-t-88.github.io/tune-radio/lyric/pop/BTS%20-%20Dynamite.json",
+            "audio": "https://leo-t-88.github.io/tune-radio/audio/pop/BTS%20-%20Dynamite.ogg"
+        },
+        {
+            "albumart": "https://lh3.googleusercontent.com/qRLEf-qa2yrPlanPJOtaDvYdd-GXdVND-ViW_kVUR5tOTKaw6UXyefkz1PuAoWQxAXFr0fAbohUuRQzF=w544-h544-l90-rj",
+            "author": "Stray Kids",
+            "song": "The Sound",
+            "json": "https://leo-t-88.github.io/tune-radio/lyric/pop/Stray%20Kids%20-%20The%20Sound.json",
+            "audio": "https://leo-t-88.github.io/tune-radio/audio/pop/Stray%20Kids%20-%20The%20Sound.ogg"
+        },
+        {
+            "albumart": "https://lh3.googleusercontent.com/zCv7rmhnyBrEBtY_ULN4G1GHLNMe3V12h9oBODXaoIkDsuEfCYZLMptxqymvjk1rx3IdBafVsPNnOHg=w544-h544-l90-rj",
+            "author": "PSY",
+            "song": "강남스타일 (Gangnam Style)",
+            "json": "https://leo-t-88.github.io/tune-radio/lyric/pop/PSY%20-%20%EA%B0%95%EB%82%A8%EC%8A%A4%ED%83%80%EC%9D%BC%20(Gangnam%20Style).json",
+            "audio": "https://leo-t-88.github.io/tune-radio/audio/pop/PSY%20-%20%EA%B0%95%EB%82%A8%EC%8A%A4%ED%83%80%EC%9D%BC%20(Gangnam%20Style).ogg"
+        },
+        {
+            "albumart": "https://lh3.googleusercontent.com/6HM8d1d7o2RDgf17Qi-T_XWgOAE8eOxYRWTVmAMxjdKjQ0vzq5rn4zQt1QkGW4fCNEGJifJ50Kboozkj=w544-h544-l90-rj",
+            "author": "Jung Kook ft Latto",
+            "song": "Seven (Explicit Ver)",
+            "json": "https://leo-t-88.github.io/tune-radio/lyric/pop/Jung%20Kook%20ft%20Latto%20-%20Seven%20(Explicit%20Ver).json",
+            "audio": "https://leo-t-88.github.io/tune-radio/audio/pop/Jung%20Kook%20ft%20Latto%20-%20Seven%20(Explicit%20Ver).ogg"
+        },
+        {
+            "albumart": "https://lh3.googleusercontent.com/KzAyQjgDWOPjKIyIWlzhYEYRSdMGBqyhshANu_oZmkKbD20Qp76syLJALNFNIuTW9uHs-cO-K9uNdEph=w544-h544-l90-rj",
+            "author": "Blackpink",
+            "song": "불장난 (Playing With Fire)",
+            "json": "https://leo-t-88.github.io/tune-radio/lyric/pop/Blackpink%20-%20%EB%B6%88%EC%9E%A5%EB%82%9C%20(Playing%20With%20Fire).json",
+            "audio": "https://leo-t-88.github.io/tune-radio/audio/pop/Blackpink%20-%20%EB%B6%88%EC%9E%A5%EB%82%9C%20(Playing%20With%20Fire).ogg"
+        }
+    ]
+}
