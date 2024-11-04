@@ -1,0 +1,11 @@
+{
+    "songs": [
+        {
+            "albumart": "https://leo-t-88.github.io/tune-radio/assets/radio/skyrock.png",
+            "author": "Premier sur le rap",
+            "song": "Skyrock",
+            "json": "",
+            "audio": "https://icecast.skyrock.net/s/natio_aac_128k?tvr_name=tuneradio&tvr_section1=128"
+        }
+    ]
+}

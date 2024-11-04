@@ -1,0 +1,18 @@
+{
+    "songs": [
+        {
+            "albumart": "https://leo-t-88.github.io/tune-radio/assets/radio/nostalgie.png",
+            "author": "Les plus grands tubes !",
+            "song": "Nostalgie",
+            "json": "",
+            "audio": "https://scdn.nrjaudio.fm/audio1/fr/30601/mp3_128.mp3"
+        },
+        {
+            "albumart": "https://leo-t-88.github.io/tune-radio/assets/radio/nostalgie.png",
+            "author": "Les plus grands tubes !",
+            "song": "Nostalgie - HD",
+            "json": "",
+            "audio": "https://scdn.nrjaudio.fm/audio1/fr/40164/aac_576.mp3"
+        }
+    ]
+}

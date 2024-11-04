@@ -1,0 +1,18 @@
+{
+    "songs": [
+        {
+            "albumart": "https://leo-t-88.github.io/tune-radio/assets/radio/rirechansons.png",
+            "author": "La radio du rire",
+            "song": "Rire & Chansons",
+            "json": "",
+            "audio": "https://scdn.nrjaudio.fm/audio1/fr/30401/mp3_128.mp3"
+        },
+        {
+            "albumart": "https://leo-t-88.github.io/tune-radio/assets/radio/rirechansons.png",
+            "author": "La radio du rire",
+            "song": "Rire & Chansons - HD",
+            "json": "",
+            "audio": "https://scdn.nrjaudio.fm/audio1/fr/40192/aac_576.mp3"
+        }
+    ]
+}

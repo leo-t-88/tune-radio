@@ -1,0 +1,11 @@
+{
+    "songs": [
+        {
+            "albumart": "https://leo-t-88.github.io/tune-radio/assets/radio/radioespace.png",
+            "author": "La plus Lyon des radios",
+            "song": "Radio Espace",
+            "json": "",
+            "audio": "https://radioespace.ice.infomaniak.ch/radioespace-high.mp3"
+        }
+    ]
+}
